@@ -2,7 +2,7 @@
 style = "bold #ffb86c"
 
 [character]
-error_symbol = "[λ](bold #ff5555)"
+error_symbol = "[JAMMERJOH](bold #ff5555)"
 success_symbol = "[λ](bold #50fa7b)"
 
 [cmd_duration]
@@ -10,7 +10,7 @@ style = "bold #f1fa8c"
 
 [directory]
 style = "bold #50fa7b"
- 
+
 [git_branch]
 style = "bold #ff79c6"
 
