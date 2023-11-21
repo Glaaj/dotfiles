@@ -2,8 +2,8 @@
 alias k=kubecolor
 alias t=terraform
 alias l='exa -l'
+alias lt='exa --tree --level=2 --long --icons --git'
 alias cat=bat
-alias vim=nvim
 
 # sourcing kubeconfig script
 source ~/scripts/load-k8s-configs.sh
