@@ -12,17 +12,16 @@ Plug 'myusuf3/numbers.vim'
 Plug 'junegunn/fzf'
 
 "Theme related plugins
-Plug 'dracula/vim',{'as':'dracula'}
-Plug 'junegunn/seoul256.vim'
+Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
 
 " Related to themes and settings for plugins
-colorscheme dracula
+colorscheme catppuccin_frappe
 set termguicolors
-let g:airline_theme='dracula'
+let g:lightline = {'colorscheme': 'catppuccin_frappe'}
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts=1
 
