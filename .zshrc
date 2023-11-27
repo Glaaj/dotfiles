@@ -9,7 +9,7 @@ alias cat=bat
 source ~/scripts/load-k8s-configs.sh
 
 # setting default editor
-export EDITOR='nvim'
+export EDITOR='vim'
 
 # history settings
 export HISTFILE=~/.zsh_history
