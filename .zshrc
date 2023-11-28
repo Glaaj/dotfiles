@@ -1,6 +1,14 @@
 # aliases
+## Kubernetes
 alias k=kubecolor
+alias kgp= 'kubecolor get pods -A'
+
+## Terraform
 alias t=terraform
+alias td='terraform-docs markdown table --output-file README.md --output-mode inject .'
+alias tfmt='terraform fmt --recursive .'
+
+## General
 alias l='exa -l'
 alias lt='exa --tree --level=2 --long --icons --git'
 alias cat=bat
