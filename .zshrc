@@ -1,7 +1,7 @@
 # aliases
 ## Kubernetes
 alias k=kubecolor
-alias kgp= 'kubecolor get pods -A'
+alias kgp='kubecolor get pods -A'
 
 ## Terraform
 alias t=terraform
