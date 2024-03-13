@@ -12,6 +12,7 @@ Plug 'myusuf3/numbers.vim'
 Plug 'junegunn/fzf'
 
 "Theme related plugins
+plug 'morhetz/gruvbox',
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -19,9 +20,9 @@ Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
 " Related to themes and settings for plugins
-colorscheme catppuccin_frappe
+colorscheme gruvbox
 set termguicolors
-let g:lightline = {'colorscheme': 'catppuccin_frappe'}
+let g:lightline = {'colorscheme': 'gruvbox'}
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts=1
 

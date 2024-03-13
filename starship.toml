@@ -1,13 +1,15 @@
 # Setting palette
-palette = "catppuccin_frappe"
-
+palette = "gruvbox_dark"
 
 [aws]
-style = "bold peach"
+style = "bold orange"
+
+[azure]
+style = "bold blue"
 
 [character]
-error_symbol = "[JAMMERJOH](bold #ff5555)"
-success_symbol = "[λ](bold #50fa7b)"
+error_symbol = "[JAMMERJOH](bold red)"
+success_symbol = "[λ](bold green)"
 
 [cmd_duration]
 style = "bold yellow"
@@ -16,7 +18,7 @@ style = "bold yellow"
 style = "bold green"
 
 [git_branch]
-style = "bold pink"
+style = "bold purple"
 
 [git_status]
 style = "bold red"
@@ -24,32 +26,14 @@ style = "bold red"
 [terraform]
 disabled = true
 
-
-# Catppuccin palette
-[palettes.catppuccin_frappe]
-rosewater = "#f2d5cf"
-flamingo = "#eebebe"
-pink = "#f4b8e4"
-mauve = "#ca9ee6"
-red = "#e78284"
-maroon = "#ea999c"
-peach = "#ef9f76"
-yellow = "#e5c890"
-green = "#a6d189"
-teal = "#81c8be"
-sky = "#99d1db"
-sapphire = "#85c1dc"
-blue = "#8caaee"
-lavender = "#babbf1"
-text = "#c6d0f5"
-subtext1 = "#b5bfe2"
-subtext0 = "#a5adce"
-overlay2 = "#949cbb"
-overlay1 = "#838ba7"
-overlay0 = "#737994"
-surface2 = "#626880"
-surface1 = "#51576d"
-surface0 = "#414559"
-base = "#303446"
-mantle = "#292c3c"
-crust = "#232634"
+[palettes.gruvbox_dark]
+color_fg0 = '#fbf1c7'
+color_bg1 = '#3c3836'
+color_bg3 = '#665c54'
+color_blue = '#458588'
+color_aqua = '#689d6a'
+color_green = '#98971a'
+color_orange = '#d65d0e'
+color_purple = '#b16286'
+color_red = '#cc241d'
+color_yellow = '#d79921'
