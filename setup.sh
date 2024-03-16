@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # This is the setup script for my config. The idea is to be able to run
-# this after cloning the repo on a Mac or Ubuntu (WSL) system and be up
+# this after cloning the repo on a debian based system and be up
 # and running very quickly.
 
 # create directories
@@ -17,11 +17,11 @@ ln -sf "$PWD/k9s/skin.yml" "$XDG_CONFIG_HOME"/k9s/skin.yml
 ln -sf "$PWD/bat/config" "$HOME"/bat/config
 
 # Packages
+
 ## Update package list
 sudo apt update
 
 ## Install packages
-sudo apt install vim
-
 ##
-sudo apt install kubectl kubectx derailed/k9s/k9s
+sudo apt install kubectl kubectx derailed/k9s/k9s \
+  vim tree bat exa htop
