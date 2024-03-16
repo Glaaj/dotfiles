@@ -15,14 +15,17 @@ ln -sf "$PWD/.bash_profile" "$HOME"/.bash_profile
 ln -sf "$PWD/.bashrc" "$HOME"/.bashrc
 ln -sf "$PWD/.vimrc" "$HOME"/.vimrc
 ln -sf "$PWD/k9s/skin.yml" "$XDG_CONFIG_HOME"/k9s/skin.yml
-ln -sf "$PWD/bat/bat.conf" "$HOME"/bat/bat.conf
+ln -sf "$PWD/bat/bat.conf" "$XDG_CONFIG_HOME"/bat/bat.conf
 
 # Packages
 ## Update package list
 sudo apt update
 
+## install apt packages
+sudo apt install curl build-essential
+
 # Install brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-## Install packages using brew
+## Install brew packages
 brew install kubectl kubectx derailed/k9s/k9s vim tree bat exa htop starship
