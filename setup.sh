@@ -13,15 +13,16 @@ mkdir -p "$XDG_CONFIG_HOME"/bat
 # Symbolic links
 ln -sf "$PWD/.bash_profile" "$HOME"/.bash_profile
 ln -sf "$PWD/.bashrc" "$HOME"/.bashrc
+ln -sf "$PWD/.vimrc" "$HOME"/.vimrc
 ln -sf "$PWD/k9s/skin.yml" "$XDG_CONFIG_HOME"/k9s/skin.yml
-ln -sf "$PWD/bat/config" "$HOME"/bat/config
+ln -sf "$PWD/bat/bat.conf" "$HOME"/bat/bat.conf
 
 # Packages
-
 ## Update package list
 sudo apt update
 
-## Install packages
-##
-sudo apt install kubectl kubectx derailed/k9s/k9s \
-  vim tree bat exa htop
+# Install brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+## Install packages using brew
+brew install kubectl kubectx derailed/k9s/k9s vim tree bat exa htop starship
