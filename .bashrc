@@ -30,5 +30,8 @@ export HISTSIZE=25000
 export SAVEHIST=25000
 export HISTCONTROL=ignorespace
 
+# settings for brew
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
 # loading starship
 eval "$(starship init bash)"
