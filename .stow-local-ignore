@@ -11,4 +11,4 @@ Session.vim
 ^/dotfiles_setup.yaml
 ^/requirements.yaml
 ^/install.sh
-^/.gitlab-ci.yml
+^/load-k8s-configs.sh
