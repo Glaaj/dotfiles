@@ -1,0 +1,12 @@
+---
+- name: Setup environment with dotfiles
+  hosts: localhost
+  tasks:
+    - name: Cli_tools
+      become: true
+      ansible.builtin.import_role:
+        name: cli_tools
+
+    - name: Stow
+      ansible.builtin.import_role:
+        name: stow

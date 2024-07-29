@@ -1,0 +1,14 @@
+.DS_Store
+venv
+Session.vim
+
+\.git
+\.gitignore
+
+^/roles
+
+^/README.md
+^/dotfiles_setup.yaml
+^/requirements.yaml
+^/install.sh
+^/.gitlab-ci.yml

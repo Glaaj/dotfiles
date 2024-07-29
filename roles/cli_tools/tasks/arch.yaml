@@ -1,0 +1,23 @@
+---
+- name: Install CLI tools on Arch - {{ pacman_packages }}
+  vars:
+    pacman_packages:
+      - bash-completion
+      - bat
+      - eza
+      - helm
+      - htop
+      - kubectl
+      - kubie
+      - k9s
+      - lazygit
+      - tree
+      - shellcheck
+      - starship
+      - stow
+      - terraform
+      - vim
+  community.general.pacman:
+    package: "{{ pacman_packages }}"
+    state: present
+  when: (ansible_distribution == "Archlinux") or (ansible_distribution == "Arch")

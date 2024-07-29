@@ -1,0 +1,5 @@
+---
+- name: Run stow to create symlinks
+  ansible.builtin.command: "stow . --target {{ ansible_env.HOME }} --verbose=2"
+  register: result
+  changed_when: 'result.stderr is search("LINK: ")'

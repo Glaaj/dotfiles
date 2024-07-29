@@ -1,0 +1,8 @@
+---
+- name: Install CLI tools on Arch
+  ansible.builtin.import_tasks: arch.yaml
+  when: (ansible_distribution == "Archlinux") or (ansible_distribution == "Arch")
+
+- name: Install CLI tools on macOS
+  ansible.builtin.import_tasks: macos.yaml
+  when: ansible_distribution == "MacOSX"

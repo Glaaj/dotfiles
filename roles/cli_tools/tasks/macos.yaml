@@ -1,0 +1,24 @@
+---
+- name: Install CLI tools on Macos - {{ brew_packages }}
+  vars:
+    brew_packages:
+      # TODO, determine if the @2 flag works here
+      - bash-completion@2
+      - bat
+      - eza
+      - helm
+      - htop
+      - kubectl
+      - kubie
+      - derailed/k9s/k9s
+      - lazygit
+      - tree
+      - shellcheck
+      - starship
+      - stow
+      - terraform
+      - vim
+  community.general.homebrew:
+    package: "{{ brew_packages }}"
+    state: present
+  when: ansible_distribution == "MacOSX"
