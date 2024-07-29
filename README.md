@@ -4,6 +4,7 @@ This repository hosts my dotfiles.
 The setup is performed through Ansible, this takes care of installation of
 software as well as symlink creation using [GNU Stow](https://www.gnu.org/software/stow/).
 
+[![Validate configuration](https://github.com/Glaaj/dotfiles/actions/workflows/validate.yaml/badge.svg)](https://github.com/Glaaj/dotfiles/actions/workflows/validate.yaml)
 
 ## Requirements
 
