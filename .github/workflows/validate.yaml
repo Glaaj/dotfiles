@@ -1,9 +1,10 @@
+name: 'Validate configuration'
+
 on:
+  workflow_dispatch:
   push:
     branches:
-      - 'main'
-
-name: 'Validate configuration'
+      - Main
 
 jobs:
   shellcheck:
