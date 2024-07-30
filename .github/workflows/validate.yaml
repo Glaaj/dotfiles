@@ -15,7 +15,7 @@ jobs:
       - name: Run ShellCheck
         uses: ludeeus/action-shellcheck@master
         with:
-          ignore_names: .bashrc .bashprofile
+          ignore_names: .bashrc .bash_profile
 
   lint:
     name: Lint
