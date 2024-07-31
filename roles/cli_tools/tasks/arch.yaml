@@ -12,6 +12,7 @@
       - k9s
       - lazygit
       - tree
+      - tmux
       - shellcheck
       - starship
       - stow
