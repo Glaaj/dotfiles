@@ -7,6 +7,10 @@
       ansible.builtin.import_role:
         name: cli_tools
 
+    - name: Cleanup
+      ansible.builtin.import_role:
+        name: cleanup
+
     - name: Stow
       ansible.builtin.import_role:
         name: stow

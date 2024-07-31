@@ -1,0 +1,15 @@
+---
+- name: Remove files to ensure stow doesn't run into conflicts
+  ansible.builtin.file:
+    path: '{{ item }}'
+    state: absent
+  with_items:
+    - "{{ ansible_env.HOME }}/.config/bat/bat.conf"
+    - "{{ ansible_env.HOME }}/.config/k9s/skins/dracula.yaml"
+    - "{{ ansible_env.HOME }}/.config/k9s/aliases.yaml"
+    - "{{ ansible_env.HOME }}/.config/k9s/config.yaml"
+    - "{{ ansible_env.HOME }}/.bashrc"
+    - "{{ ansible_env.HOME }}/.bash_profile"
+    - "{{ ansible_env.HOME }}/.vimrc"
+    - "{{ ansible_env.HOME }}/.tmux.conf"
+    - "{{ ansible_env.HOME }}/starship.toml"
