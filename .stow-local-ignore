@@ -11,4 +11,3 @@ Session.vim
 ^/dotfiles_setup.yaml
 ^/requirements.yaml
 ^/install.sh
-^/load-k8s-configs.sh
