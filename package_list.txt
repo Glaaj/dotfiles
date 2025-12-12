@@ -1,0 +1,16 @@
+argocd
+bat
+btop
+eza
+helm
+htop
+kubecolor
+kubectl
+kubie
+k9s
+lazygit
+tree
+shellcheck
+starship
+stow
+vim

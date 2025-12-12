@@ -1,0 +1,48 @@
+palette = "solarized_dark"
+
+# Define Dracula color palette
+[palettes.solarized_dark]
+background = "#282a36"
+current_line = "#44475a"
+foreground = "#f8f8f2"
+comment = "#6272a4"
+blue = "#268bd2"
+cyan = "#2aa198"
+green = "#859900"
+orange = "#cb4b16"
+pink = "#d33682"
+purple = "#6c71c4"
+red = "#dc322f"
+yellow = "#b58900"
+
+[aws]
+style = "bold orange"
+
+[azure]
+style = "bold blue"
+
+[character]
+error_symbol = "[λ](bold red)"
+success_symbol = "[λ](bold green)"
+
+[cmd_duration]
+style = "bold yellow"
+
+[directory]
+style = "bold green"
+
+[git_branch]
+style = "bold pink"
+
+[git_status]
+style = "bold red"
+
+[hostname]
+style = "bold purple"
+
+[username]
+format = "[$user]($style) on "
+style_user = "bold cyan"
+
+[terraform]
+disabled = false
