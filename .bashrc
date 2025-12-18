@@ -44,5 +44,8 @@ alias lt3='eza --tree --level=4 --long --icons --git'
 alias cat=bat
 alias lg='lazygit'
 
+# loading zoxide
+eval "$(zoxide init bash)"
+
 # loading starship prompt
 eval "$(starship init bash)"
