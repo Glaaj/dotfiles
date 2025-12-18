@@ -19,7 +19,7 @@ export LESS_TERMCAP_ue=$'\e[0m'
 export LESS_TERMCAP_us=$'\e[1;4;31m'
 
 ## Set neovim as default editor
-export EDITOR=vim
+export EDITOR=nvim
 
 ## k9s
 export K9S_CONFIG_DIR=~/.config/k9s
