@@ -15,6 +15,6 @@ Use Arch or a flavour of it, I personally use [Endeavour](https://endeavouros.co
 # Clone repo locally:
 git clone https//www.github.com/glaaj/dotfiles`
 
-# Run `install.sh` to install Ansible using pip
+# Run `install.sh` to start the setup
 ./setup.sh
 ```
