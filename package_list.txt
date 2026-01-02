@@ -3,7 +3,7 @@ bat
 btop
 eza
 fzf
-gh
+github-cli
 glab
 helm
 htop
