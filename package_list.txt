@@ -5,6 +5,7 @@ eza
 fzf
 github-cli
 glab
+glow
 helm
 htop
 jq
