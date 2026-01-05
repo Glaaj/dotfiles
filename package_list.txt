@@ -15,9 +15,11 @@ k9s
 lazygit
 nvim
 shellcheck
+shfmt
 starship
 stow
 tree
+tree-sitter-cli
 yazi
 yq
 zoxide
