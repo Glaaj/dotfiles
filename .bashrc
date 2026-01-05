@@ -38,9 +38,12 @@ alias td='terraform-docs markdown table --output-file README.md --output-mode in
 alias tfmt='terraform fmt --recursive .'
 
 ## General
+fe() { fzf -m --preview='bat --style=numbers --color=always {}' --bind 'enter:become(nvim {+})'; }
+
+alias ls='eza -lh --group-directories-first --icons=auto'
 alias l='eza -l'
-alias lt1='eza --tree --level=2 --long --icons --git'
-alias lt3='eza --tree --level=4 --long --icons --git'
+alias lt='eza --tree --level=2 --long --icons --git'
+alias lta='lt -a'
 alias cat=bat
 alias lg='lazygit'
 
