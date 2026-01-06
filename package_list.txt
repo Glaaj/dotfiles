@@ -2,6 +2,7 @@ argocd
 bat
 btop
 eza
+docker
 fzf
 github-cli
 glab
