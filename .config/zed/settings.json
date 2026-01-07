@@ -1,0 +1,40 @@
+// Zed settings
+{
+  "relative_line_numbers": "enabled",
+  "git": {
+    "inline_blame": {
+      "show_commit_summary": true,
+    },
+  },
+
+  // Extensions
+  "auto_install_extensions": {
+    "ansible": true,
+    "basher": true,
+    "colored-zed-icons-theme": true,
+    "csv": true,
+    "dockerfile": true,
+    "git-firefly": true,
+    "helm": true,
+    "log": true,
+    "rainbow-csv": true,
+    "terraform": true,
+    "toml": true,
+  },
+
+  // Font related settings
+  "buffer_font_family": "jet",
+  "buffer_font_size": 13.0,
+  "buffer_font_features": {
+    // Disable ligatures
+    "calt": false,
+  },
+  "ui_font_size": 16,
+
+  // Theme related settings
+  "icon_theme": "Colored Zed Icons Theme Dark",
+  "theme": "Solarized Dark",
+
+  // Settings regarding modes
+  "vim_mode": true,
+}
