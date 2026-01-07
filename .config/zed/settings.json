@@ -23,7 +23,7 @@
   },
 
   // Font related settings
-  "buffer_font_family": "jet",
+  "buffer_font_family": "JetBrainsMonoNL Nerd Font Mono",
   "buffer_font_size": 13.0,
   "buffer_font_features": {
     // Disable ligatures
