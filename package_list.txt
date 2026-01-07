@@ -9,6 +9,7 @@ glab
 glow
 helm
 htop
+ttf-jetbrains-mono-nerd
 jq
 kubecolor
 kubectl
@@ -24,4 +25,5 @@ tree
 tree-sitter-cli
 yazi
 yq
+zed
 zoxide
